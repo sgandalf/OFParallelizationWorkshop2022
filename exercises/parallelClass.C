@@ -16,6 +16,7 @@ Foam::labelList Foam::parallelClass::run() const
     // Eg. if lst_ is {0, 0} on proc 0 and it's {1, 1} on proc 1
     // The result should say: {0, 0, 1, 1}
 
+    std::cout << "Accca" << '\n';
     // Use blocking P2P communication API
     labelList res;
     
